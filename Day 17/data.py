@@ -1,15 +1,122 @@
 question_data = [
-    {"text": "A slug's blood is green.", "answer": "True"},
-    {"text": "The loudest animal is the African Elephant.", "answer": "False"},
-    {"text": "Approximately one quarter of human bones are in the feet.", "answer": "True"},
-    {"text": "The total surface area of a human lungs is the size of a football pitch.", "answer": "True"},
-    {"text": "In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.", "answer": "True"},
-    {"text": "In London, UK, if you happen to die in the House of Parliament, you are entitled to a state funeral.", "answer": "False"},
-    {"text": "It is illegal to pee in the Ocean in Portugal.", "answer": "True"},
-    {"text": "You can lead a cow down stairs but not up stairs.", "answer": "False"},
-    {"text": "Google was originally called 'Backrub'.", "answer": "True"},
-    {"text": "Buzz Aldrin's mother's maiden name was 'Moon'.", "answer": "True"},
-    {"text": "No piece of square dry paper can be folded in half more than 7 times.",
-        "answer": "False"},
-    {"text": "A few ounces of chocolate can to kill a small dog.", "answer": "True"}
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which famous spy novelist wrote the childrens&#039; story &quot;Chitty-Chitty-Bang-Bang&quot;?",
+        "correct_answer": "Ian Fleming",
+        "incorrect_answers": [
+                "Joseph Conrad",
+                "John Buchan",
+                "Graham Greene"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How many Harry Potter books are there?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+                "8",
+                "5",
+                "6"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who was the author of the 1954 novel, &quot;Lord of the Flies&quot;?",
+        "correct_answer": "William Golding",
+        "incorrect_answers": [
+                "Stephen King",
+                "F. Scott Fitzgerald",
+                "Hunter Fox"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the name of the three headed dog in Harry Potter and the Sorcerer&#039;s Stone?",
+        "correct_answer": "Fluffy",
+        "incorrect_answers": [
+                "Spike",
+                "Poofy",
+                "Spot"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the name of Sherlock Holmes&#039;s brother?",
+        "correct_answer": "Mycroft Holmes",
+        "incorrect_answers": [
+                "Mederi Holmes",
+                "Martin Holmes",
+                "Herbie Hancock Holmes"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the Magic: The Gathering universe,  the Antiquities, Ice Age, and Alliances expansions take place on which continent?",
+        "correct_answer": "Terisiare",
+        "incorrect_answers": [
+                "Aerona",
+                "Shiv",
+                "Jamuraa"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which novel by John Grisham was conceived on a road trip to Florida while thinking about stolen books with his wife?",
+        "correct_answer": "Camino Island",
+        "incorrect_answers": [
+                "Rogue Lawyer",
+                "Gray Mountain",
+                "The Litigators"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Terry Pratchett&#039;s Discworld novel &#039;Wyrd Sisters&#039;, which of these are not one of the three main witches?",
+        "correct_answer": "Winny Hathersham",
+        "incorrect_answers": [
+                "Granny Weatherwax",
+                "Nanny Ogg",
+                "Magrat Garlick"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following is not a work authored by Fyodor Dostoevsky?",
+        "correct_answer": "Anna Karenina",
+        "incorrect_answers": [
+                "Notes from the Underground",
+                "Crime and Punishment",
+                "The Brothers Karamazov"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which Russian author wrote the epic novel War and Peace?",
+        "correct_answer": "Leo Tolstoy",
+        "incorrect_answers": [
+                "Fyodor Dostoyevsky",
+                "Alexander Pushkin",
+                "Vladimir Nabokov"
+        ]
+    }
 ]
