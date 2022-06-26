@@ -39,12 +39,14 @@ if __name__ == '__main__':
 
         has_wall = True
         if has_wall and abs(snake.head.xcor()) > 300 or abs(snake.head.ycor()) > 300:
-            is_running = False
-            scoreboard.game_over()
+            #is_running = False
+            scoreboard.reset()
+            snake.reset()
 
         for segment in snake.segments:
             if snake.head.distance(segment) < 10:
-                is_running = False
-                scoreboard.game_over()
+                #is_running = False
+                scoreboard.reset()
+                snake.reset()
 
     screen.exitonclick()
