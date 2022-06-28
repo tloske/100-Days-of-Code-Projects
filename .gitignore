@@ -112,3 +112,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Day 24/Input/.DS_Store
+Day 25/states_to_learn.csv
+Day 24/Output/
