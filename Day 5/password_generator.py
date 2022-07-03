@@ -1,5 +1,4 @@
 # Password Generator Project
-from ntpath import join
 import random
 from multiprocessing import Process, Queue
 import time

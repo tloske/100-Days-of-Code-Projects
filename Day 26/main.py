@@ -10,9 +10,17 @@ def create_phonetic_list(word, phonetic_alphabet):
     return [phonetic_alphabet[letter] for letter in word]
 
 
-if __name__ == '__main__':
+def main():
     phonetic_alphabet = get_phonetic_alphabet()
 
     word = input("Type in a word: ").upper()
 
-    print(create_phonetic_list(word, phonetic_alphabet))
+    try:
+        print(create_phonetic_list(word, phonetic_alphabet))
+    except KeyError:
+        print("Sorry, only letters int the alphabet.")
+        main()
+
+
+if __name__ == '__main__':
+    main()
